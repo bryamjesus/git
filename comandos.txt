@@ -1,0 +1,132 @@
+COMANDOS:
+    Configuración:
+        git --version
+            para ver la versión de GIT.
+
+        git config --global user.name "Bryam Talledo"
+            para ingresar tu nombre de ususario
+
+        git config --global user.email bryamtalledog@gmail.com
+            para ingresar tu correo
+
+        git config --global core.editor "code --wait"
+            para poner nuestro editor de texto por defecto. El --wait es para que la terminal espera que cereemos el editor de texto
+
+        git config --global -e
+            es para ver toda la configuracion global. Y se va abrir en nuestro editor de texto
+
+        git config --global core.autocrlf true
+            es para que no afecte si otro usuario esta con otro sistema operativo.
+            El true es por que es para Windows. Para mac es input.
+        
+        git config -h
+            es para ver todas las configuraciones adicionales que podemos hacer
+    
+    Global:
+        clear
+            para limpiar la terminal
+        
+        ls
+            listar las carpetas en la cual nos encontramos
+
+        pwd
+            para ver en carpeta estamos
+        
+        cd *carpeta la cual queremos ingresar* 
+            para ingresar a una carpeta que queramos.
+            Tab para ver las opciones que tenemos de nombres de las carpetas
+
+        cd ..
+            salirme de la carpeta, y regresar una carpeta
+        
+        mkdir *nombre de carpeta*
+            para crear una carpeta
+            si quieres poner a la carpeta un nombre con espacios pones comillas.
+        
+        ls -a
+            muestra todos los archivos ocultos
+        
+        code .
+            abre el editor de texto
+
+        rm *nombre del archivo*
+            elimina el archivo seleccionado
+
+        mv *nombre del archivo* *nuevo nombre del archivo*
+            para cambiar el nombre a un archivo
+        
+        cat *nombre del archivo*
+            muestra el contenido del archivo
+
+    Commit:
+        git init
+            inicia un repositorio en la carpeta que hemos estado
+        
+        git status
+            mostra el estado actual de nuestro repositorio.
+
+        git status -s
+            muestra mas resumido el estado de nuestro repositorio
+
+        git add .
+            es para agregar todo.
+            pero una buena practica es poner solo los arvchivos que vamos a subir
+            git add *nombre del archivo uno* *nombre del archivo dos*
+            * cuando se borra un archivo tenemos que ponerlo aca en este comando para que asi se seap que este fue eliminado
+
+        git commit -m "*aca un mensaje que tenga sentido*"
+            commit == comprometerse
+            si solo pome git commit se abre el editor en el cual nosotros ahi ponemos el mensaje en la linea uno guardar y cerrar y en el terminal se vera que pusimos el mensaje
+
+        git rm *nombre del archivo*
+            elimina el archivo y tambien hace el git add. Listo para hacer el commit
+
+        git restore --stage *nombre del archivo*
+            es para quitarlo de todos los commits (creo)
+
+        git restore *nombre del archivo*      
+            para regresar un archivo borrado
+            tambien para quitar los cambios hechos
+            para obtener se debe usar el comando de arriba con este otro comando 
+
+        git mv *nombre del archivo* *nuevo nombre del archivo*
+            cambio de nombre del archivo y con git add incluido
+    
+        git diff 
+            se ve las lineas de codigo que hemos agregado y/o eliminado
+            que no se pasa a stage
+        
+        git diff --stage
+            se ve despues del stage
+        
+        git log
+            se ve quien hizo el commit bien detallado para salir de la pantalla es precionar espacio y por ultimo la tecla q
+
+        git log --oneline
+            el historial de los commit con todo y hash
+
+        git push -u origin main
+            -u se crea la rama y el origin es en donde y main el nombre de la rama
+
+    Ramas (branch):
+        git branch
+            ver en que rama estamos
+        
+        git chechout -b *nombre de la rama*
+            para crear una rama
+        
+        git checkout *nombre de la rama*
+            para pasarse de rama en rama
+        
+        git merge *nombre de la rama de la cual queremos que se una con la rama principal(main)*
+            es pára que se pase los cambios de una rama a la rama principal
+
+        git remote add origin https://github.com/bryamjesus/git--curso-hola-mundo-mi-web.git
+
+        git push -u origin ramaC
+            envia la rama al repositorio online
+
+
+    Ignorar Archivos:
+        en la carpeta base crear un archivo llamado .gitignore y ahi agrega los nombre de los archivos o carpetas que desea que no se haga commit.
+        luego de crearlo y agregar los elemenetos a ignorar pues le hace un add y luego un commit.
