@@ -75,7 +75,7 @@ _Si deseamos renombrar usamos:_ `mv <carpeta || nombre.*> <nuevo || nuevo.*>`
 
 En una carpeta
 ```bash
-mv js JavaScript
+mv carpeta-js JavaScript
 ```
 En una documento
 ```bash
