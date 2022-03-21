@@ -82,8 +82,22 @@ git config user.email
 ```
 > Nota: Si quieres ayuda con git solo usa el comando `git help <key>` , `git <verb> --help` o `man git-<verb>`
 > ```bash 
+> git help -h
 > git help config
 > ```
 >
 > [Página de referencia](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-%C2%BFC%C3%B3mo-obtener-ayuda%3F)
 
+## Configuración adicional
+
+_Con este comando haremos que nuestro codigo no sea afectado si es que estuvo hecho en en MAC o Windows_
+
+```bash
+git config --global core.autocrlf true
+```
+El `true` en el comando es por lo que es en windows, para los otros sistemas operativos es:
+| Editor                                | Comando de configuración|
+| ------------------------------------- | ---------------- |
+| Mac | git config --global core.autocrlf input |
+| Linux | git config --global core.autocrlf input |
+| Windows | git config --global core.autocrlf true |
