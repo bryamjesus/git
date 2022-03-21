@@ -10,7 +10,7 @@ _Puede que estés realizando pruebas o constantes cambios y no puedes visualizar
 ```bash
 clear
 ```
-## ls
+## Listar archivos y documentos 📖
 
 _Lista todos documentos y archivos en la ruta que estas_
 
@@ -20,6 +20,10 @@ ls
 Para mostrar los archivos que esta oculto solo agrega `-a`
 ```bash
 ls -a
+```
+Tambien puedes usar este comando
+```bash
+dir
 ```
 
 ## Ver ruta 🚶‍♀️
