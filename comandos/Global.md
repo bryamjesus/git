@@ -61,14 +61,35 @@ code .
 ```
 > Nota: El punto es cuando estes en la ruta que tu quieras abrir, tambien puedes poner la ruta
 
-## Eliminar una carpeta 🗑
+## Eliminar una carpeta 🗑📄
 
-_Con este comando vamos a poder eliminar la(s) archivo(s) seleccionado(s): `rm <doc.*>` _
+_Con este comando vamos a poder eliminar la(s) archivo(s) seleccionado(s):_ `rm <doc.*>`
 
 ```bash
 rm index.html
 ```
 > Nota: Es solo para documentos
 
+## Editar nombre de archivo o carpeta ✏📄 || ✏📁
+_Si deseamos renombrar usamos:_ `mv <carpeta || nombre.*> <nuevo || nuevo.*>`
 
+En una carpeta
+```bash
+mv js JavaScript
+```
+En una documento
+```bash
+mv index.html registro.html
+```
+> Nota: Al cambiar de nombre el documento tienes que poner la extension tambien
+
+
+## Ver contenido de una archivo 📄👀
+
+_Ver todo el contenido del archivo seleccionado:_ `cat <doc.*>`
+
+```bash
+cat index.html
+```
+> Nota: Es solo para documentos
 
