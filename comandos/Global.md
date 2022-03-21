@@ -17,6 +17,10 @@ _Lista todos documentos y archivos en la ruta que estas_
 ```bash
 ls
 ```
+Para mostrar los archivos que esta oculto solo agrega `-a`
+```bash
+ls -a
+```
 
 ## pwd
 
@@ -47,5 +51,16 @@ _Este es un comando es para la creación de carpetas_
 mkdir curso-git
 ```
 > Nota: Si el nombre de la carpeta tiene espacion pues usa `""`
+
+## code <ruta>
+
+_Este codigo abre nuestro editor de texto con la ruta en la que se encuentra_
+
+```bash
+code .
+```
+> Nota: El punto es cuando estes en la ruta que tu quieras abrir, tambien puedes poner la ruta
+
+  
 
 
