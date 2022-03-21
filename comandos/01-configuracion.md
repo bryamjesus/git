@@ -24,6 +24,8 @@ _Despues de ver que se instalo correctamente git con el comando `git --version` 
 
 ```bash
 git config --global user.name "Bryam Talledo"
+```
+```bash
 git config --global user.email bryam@gmail.com
 ```
 
@@ -94,12 +96,19 @@ git config --list
 _Si es que quieres ver una configuración en especifico pues se pone `git config <key>`_
 ```bash
 git config user.name
+```
+```bash
 git config user.email
 ```
+
 > Nota: Si quieres ayuda con git solo usa el comando `git help <key>` , `git <verb> --help` o `man git-<verb>`
 > ```bash 
-> git help -h
 > git help config
+> ```
+> 
+> Y si quieres todas las configuraciones que se puede realizar
+>  ```bash 
+> git help -h
 > ```
 >
 > Para más información: [GIT](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-%C2%BFC%C3%B3mo-obtener-ayuda%3F)
