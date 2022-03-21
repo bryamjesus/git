@@ -46,17 +46,17 @@ git config --global core.editor "code --wait"
 | BBEdit (Mac, with command line tools) | git config --global core.editor "bbedit -w"                                                                                              |
 | Emacs                                 | git config --global core.editor emacs                                                                                                    |
 | Gedit (Linux)                         | git config --global core.editor "gedit --wait --new-window"                                                                              |
-| Gvim (Windows 64-bit)                 | git config --global core.editor "'C:\Program Files\Vim\vim72\gvim.exe' --nofork '%\*'" (Also see note below)                             |
+| Gvim (Windows 64-bit)                 | git config --global core.editor "'C:\Program Files\Vim\vim72\gvim.exe' --nofork '%\*'" (También vea la nota a continuación)                             |
 | Kate (Linux)                          | git config --global core.editor "kate"                                                                                                   |
 | nano                                  | git config --global core.editor "nano -w"                                                                                                |
 | Notepad (Windows 64-bit)              | git config core.editor notepad                                                                                                           |
-| Notepad++ (Windows 64-bit)            | git config --global core.editor "'C:\Program Files\Notepad\notepad.exe' -multiInst -notabbar -nosession -noPlugin" (Also see note below) |
+| Notepad++ (Windows 64-bit)            | git config --global core.editor "'C:\Program Files\Notepad\notepad.exe' -multiInst -notabbar -nosession -noPlugin" (También vea la nota a continuación) |
 | Scratch (Linux)                       | git config --global core.editor "scratch-text-editor"                                                                                    |
 | Sublime Text (macOS)                  | git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --new-window --wait"                    |
-| Sublime Text (Windows 64-bit)         | git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -w" (Also see note below)                            |
+| Sublime Text (Windows 64-bit)         | git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -w" (También vea la nota a continuación)                            |
 | TextEdit (macOS)                      | git config --global core.editor "open --wait-apps --new -e"                                                                              |
 | Textmate                              | git config --global core.editor "mate -w"                                                                                                |
-| Textpad (Windows 64-bit)              | git config --global core.editor "'C:\Program Files\TextPad 5\TextPad.exe' -m (Also see note below)                                       |
+| Textpad (Windows 64-bit)              | git config --global core.editor "'C:\Program Files\TextPad 5\TextPad.exe' -m (También vea la nota a continuación)                                       |
 | UltraEdit (Windows 64-bit)            | git config --global core.editor Uedit32                                                                                                  |
 | Vim                                   | git config --global core.editor "vim --nofork"                                                                                           |
 | Visual Studio Code                    | git config --global core.editor "code --wait"                                                                                            |
