@@ -1,3 +1,5 @@
-# Comandos de configuración ⚙
+# Comandos de globales ⚙
 
-_Comandos para la configuracion de git_
+_Comandos globales para así manejar de mejor manera GIT_
+
+
