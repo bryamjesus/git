@@ -1,21 +1,27 @@
 # Comandos de configuración ⚙
+
 _Comandos para la configuracion de git_
 
 ### Saber la versión de GIT
+
 _Con este comando `git --version` vamos a poder saber la version la cual esta instalada en nuestra pc._
 
 _Para utilizar el comando solo abra el programa git bash e introdusca el comando._
+
 ```bash
 git --version
 ```
 
 Lo cual nos dara este resultado.
+
 ```bash
 git version 2.33.1.windows.1
 ```
 
 ### Tu identidad
+
 _Despues de ver que se instalo correctamente git con el comando `git --version` tenemos que establecer el nombre de usuario y dirección de correo electronico._
+
 ```bash
 git config --global user.name "Bryam Talledo"
 git config --global user.email bryam@gmail.com
@@ -24,17 +30,36 @@ git config --global user.email bryam@gmail.com
 > Nota: esto solo se tiene que hacer una vez
 
 ### Nuestro editor
+
 _El editor es parte vital para los desarrolladores por eso es vital decirle que editor usaremos a git._
 _Con este le estaremos diciendo cual queremos que sea nuestro editor predeterminado. En este caso le estoy diciendo que es el Visual Studio Code._
+
 ```bash
 git config --global core.editor "code --wait"
 ```
+
 > Nota: Si tu editor de texto no es VS Code entoces cambialo por los siguientes
 
-| Editor | Comando de configuración |
-| ------ | ------ |
-| Atom | git config --global core.editor "atom --wait" |
-| BBEdit (Mac, with command line tools) | git config --global core.editor "bbedit -w" |
-| Emacs | git config --global core.editor emacs |
-| Gedit (Linux) | git config --global core.editor "gedit --wait --new-window" |
-| Gvim (Windows 64-bit) | git config --global core.editor "'C:\Program Files\Vim\vim72\gvim.exe' --nofork '%*'" (Also see note below) |
+| Editor                                | Comando de configuración                                                                                                                 |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Atom                                  | git config --global core.editor "atom --wait"                                                                                            |
+| BBEdit (Mac, with command line tools) | git config --global core.editor "bbedit -w"                                                                                              |
+| Emacs                                 | git config --global core.editor emacs                                                                                                    |
+| Gedit (Linux)                         | git config --global core.editor "gedit --wait --new-window"                                                                              |
+| Gvim (Windows 64-bit)                 | git config --global core.editor "'C:\Program Files\Vim\vim72\gvim.exe' --nofork '%\*'" (Also see note below)                             |
+| Kate (Linux)                          | git config --global core.editor "kate"                                                                                                   |
+| nano                                  | git config --global core.editor "nano -w"                                                                                                |
+| Notepad (Windows 64-bit)              | git config core.editor notepad                                                                                                           |
+| Notepad++ (Windows 64-bit)            | git config --global core.editor "'C:\Program Files\Notepad\notepad.exe' -multiInst -notabbar -nosession -noPlugin" (Also see note below) |
+| Scratch (Linux)                       | git config --global core.editor "scratch-text-editor"                                                                                    |
+| Sublime Text (macOS)                  | git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --new-window --wait"                    |
+| Sublime Text (Windows 64-bit)         | git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -w" (Also see note below)                            |
+| TextEdit (macOS)                      | git config --global core.editor "open --wait-apps --new -e"                                                                              |
+| Textmate                              | git config --global core.editor "mate -w"                                                                                                |
+| Textpad (Windows 64-bit)              | git config --global core.editor "'C:\Program Files\TextPad 5\TextPad.exe' -m (Also see note below)                                       |
+| UltraEdit (Windows 64-bit)            | git config --global core.editor Uedit32                                                                                                  |
+| Vim                                   | git config --global core.editor "vim --nofork"                                                                                           |
+| Visual Studio Code                    | git config --global core.editor "code --wait"                                                                                            |
+| VSCodium (Free/Libre Open Source Software Binaries of VSCode)                    | git config --global core.editor "codium --wait"
+| WordPad             | git config --global core.editor '"C:\Program Files\Windows NT\Accessories\wordpad.exe"'"                                       |
+| Xi             | git config --global core.editor "xi --wait"                                       |
