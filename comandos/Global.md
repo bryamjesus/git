@@ -3,7 +3,7 @@
 _Comandos globales para así manejar de mejor manera GIT_
 
 
-## clear
+## Limpiar terminal 🧽
 
 _Puede que estés realizando pruebas o constantes cambios y no puedes visualizar de la mejor manera la terminal. Entonces este comando te ayudara al dejar tu terminal limpia_
 
@@ -22,7 +22,7 @@ Para mostrar los archivos que esta oculto solo agrega `-a`
 ls -a
 ```
 
-## pwd
+## Ver ruta 🚶‍♀️
 
 _Para ver la ruta en la cual nosotros estamos ubicados_
 
@@ -30,7 +30,7 @@ _Para ver la ruta en la cual nosotros estamos ubicados_
 pwd
 ```
 
-## cd <ruta o ..>
+## Moverse de carpeta a carpeta 📂🔛📁
 
 _Es para moverse entre las carpetas_
 
@@ -43,7 +43,7 @@ cd ..
 ```
 > Nota: Para utilizar el autocompletado utiliza `TAB`
 
-## mkdir <nombre>
+## Crear carpeta 📁
 
 _Este es un comando es para la creación de carpetas_
 
@@ -52,7 +52,7 @@ mkdir curso-git
 ```
 > Nota: Si el nombre de la carpeta tiene espacion pues usa `""`
 
-## code <ruta>
+## Abrir nuestro editor texto 💻
 
 _Este codigo abre nuestro editor de texto con la ruta en la que se encuentra_
 
@@ -61,6 +61,14 @@ code .
 ```
 > Nota: El punto es cuando estes en la ruta que tu quieras abrir, tambien puedes poner la ruta
 
-  
+## Eliminar una carpeta 🗑
+
+_Con este comando vamos a poder eliminar la(s) archivo(s) seleccionado(s): `rm <doc.*>` _
+
+```bash
+rm index.html
+```
+> Nota: Es solo para documentos
+
 
 
