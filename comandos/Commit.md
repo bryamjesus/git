@@ -60,5 +60,14 @@ git commit -m "Primer commit"
 ```
 > Consejo 💡: Si solo ingresa `git commit` se abrira el editor de texto en el cual nosotros tendremos que poner el mensaje en la `Linea 1` guardar y cerrar, al momento que cerramos en el terminal saldra nuestro mensaje
 
+## Eliminar un archivo GIT 🗑📄
+
+_Este es comando es igual al comando [rm](https://github.com/bryamjesus/git-curso/blob/main/comandos/Global.md#eliminar-una-carpeta-) con la sutil diferencia es que al momento de eliminar este realizar un [git add](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#agregar-archivos-yo-documentos--)._ `git rm <doc.*>`
+
+```bash
+git rm index.html
+```
+> Consejo 💡: Para que veas que se realizar el comando [git add](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#agregar-archivos-yo-documentos--) utiliza el comando [git status]()
+
 
 
