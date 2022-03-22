@@ -63,7 +63,11 @@ _Este codigo abre nuestro editor de texto con la ruta en la que se encuentra_
 ```bash
 code .
 ```
-> Nota: El punto es cuando estes en la ruta que tu quieras abrir, tambien puedes poner la ruta
+
+Si no estas en la ruta entonces puedes poner `code <ruta>`
+```bash
+code e/Cursos/Git/
+```
 
 ## Eliminar una carpeta 🗑📄
 
