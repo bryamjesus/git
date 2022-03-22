@@ -64,10 +64,16 @@ git commit -m "Primer commit"
 
 _Este es comando es igual al comando [rm](https://github.com/bryamjesus/git-curso/blob/main/comandos/Global.md#eliminar-una-carpeta-) con la sutil diferencia es que al momento de eliminar este realizar un [git add](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#agregar-archivos-yo-documentos--)._ `git rm <doc.*>`
 
+Este es cuando ya usaste el comando [git commit -m](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#mensaje-)
 ```bash
 git rm index.html
 ```
-> Consejo 💡: Para que veas que se realizar el comando [git add](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#agregar-archivos-yo-documentos--) utiliza el comando [git status]()
+> Consejo 💡: Para que veas que se realizar el comando [git add](https://github.com/bryamjesus/git-curso/edit/main/comandos/Commit.md#agregar-archivos-yo-documentos--) utiliza el comando [git status](https://github.com/bryamjesus/git-curso/blob/main/comandos/Commit.md#ver-el-estado-del-commit-) y veras que no tienes que agregar nada
+
+Si no es así es realice
+```bash
+git rm -f index.html
+```
 
 
 
