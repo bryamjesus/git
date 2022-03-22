@@ -4,6 +4,15 @@ _Estos son los comandos que se utilizan cuando estas realizando un commit_
 
 > Nota: commit significa compromiso
 
+## Clonar un repositorio 👥
+
+_Traer un repositorio de GitHub_ `git clone <link>`
+
+```bash
+git clone https://github.com/bryamjesus/blog-coffee-react.git
+```
+> Consejo 💡: Abres Git Bash y pones [`code <ruta>`](https://github.com/bryamjesus/git-curso/blob/main/comandos/Global.md#abrir-nuestro-editor-texto-)
+
 ## Inicio del commit 🏃‍♂️
 
 _Para iniciar un commit tenemos que ingresar el comando_
