@@ -1,4 +1,4 @@
-# Comandos de configuración de GIT 🐙
+# COMANDOS DE CONFIGURACIÓN DE GIT 🐙
 
 _Comandos para la configuracion de git_
 
