@@ -74,6 +74,7 @@ Si no es así es realice
 ```bash
 git rm -f index.html
 ```
-> Para más información: [GIT](https://git-scm.com/docs/git-rm)
-
-
+> Para más información: [GIT - English](https://git-scm.com/docs/git-rm)
+> [GIT - Español](https://git-scm.com/docs/git-rm)
+>[add](https://git-scm.com/docs/git-add)
+>[restored](https://git-scm.com/docs/git-restore)
