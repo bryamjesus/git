@@ -11,9 +11,10 @@ _Para iniciar un commit tenemos que ingresar el comando_
 ```bash
 git init
 ```
+
 ## Agregar archivos y/o documentos ➕📄 ➕📁
 
-_Para iniciar un commit tenemos que ingresar el comando:_ `git add <doc>`
+_Agrega los archivos para el commit:_ `git add <doc>`
 
 Este es para agregar todos los archivos
 ```bash
@@ -30,7 +31,6 @@ git add index.html
 > git add index.html registro.html 
 > ```
 
-
 ## Ver el estado del commit 🔥
 
 _Con este comando veremos el estado del commit nos dira que si hemos modificado/eliminado algun archivo y que no le hemos hecho `git add <doc>`_
@@ -42,4 +42,14 @@ Para mostar el estado de nuestro commit de una forma mas resumida se le agrega `
 ```bash
 git status -s
 ```
+## Mensaje 📨
+
+_Para poner un mensaje que es como un resumen de lo hecho. Poner un mensaje que tenga sentido_
+
+```bash
+git commit -m "Primer commit"
+```
+> Consejo 💡: Si solo ingresa `git commit` se abrira el editor de texto en el cual nosotros tendremos que poner el mensaje en la `Linea 1` guardar y cerrar, al momento que cerramos en el terminal saldra nuestro mensaje
+
+
 
